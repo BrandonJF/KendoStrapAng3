@@ -2,8 +2,10 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="ksa3"> <!--<![endif]-->
     <head>
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+         <script src="app/modules/angular-route.min.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
@@ -35,27 +37,31 @@
         <script src="js/kendo.web.min.js"></script>
        
     </head>
-    <body>
+    <body ng-controller="Controller1">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container">
-        Hello World
-            <input id="datepicker"/>
+        <div class="container" ng-view>
+
         
         </div>
-      
-<script>
-$(function() {
-    // Initialize the Kendo DatePicker by calling the kendoDatePicker jQuery plugin
-    $("#datepicker").kendoDatePicker();
-});
-</script>
+
 
         
 <!--        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>-->
+
+	<script src="app/modules/localStorageModule.js"></script>
+	<script src="js/vendor/lodash.min.js"></script>
+	<script src="app/config/main.js"></script>
+	<script src="app/config/routes.js"></script>
+	<script src="app/controllers/Controller1.js"></script>
+	<script src="app/controllers/Controller2.js"></script>
+	<script src="app/services/service1.js"></script>
+	<script src="app/services/service2.js"></script>
+<!--	<script src="/js/euclidActionView.js"></script>-->
+<!--	<script src="/js/localStorageModule.js"></script>-->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
