@@ -8,7 +8,7 @@ I'd opensource the product so that anyone else needing a similar stack can have 
 
 Hope this helps you all out, enjoy!
 
--Brandon John-Freso, Developer.
+-Brandon John-Freso, Developer.  Twitter: [@BrandonJF](http://twitter.com/brandonjf)
 
 ##Updates
 
