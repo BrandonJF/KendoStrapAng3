@@ -1,4 +1,30 @@
-# [KendoStrap3 = Kendo UI + Bootstrap 3](http://html5boilerplate.com)
+# [KendoStrapAng3 (KSA3) = Kendo UI + Bootstrap 3 + AngularJS](http://html5boilerplate.com)
+
+
+KSA3 is a boilerplate project for the intergration of Kendo UI, Twitter Bootstrap 3 and AngularJS. It was born of
+my own necessity to create an application using these 3 awesome frameworks. I figured before I started coding it for my particular needs
+I'd opensource the product so that anyone else needing a similar stack can have a starting point.
+
+
+Hope this helps you all out, enjoy!
+
+-Brandon John-Freso, Developer.
+
+##Updates
+
+As time goes on, I'll try and update the documentation and implement best-practces as appopriate.
+
+##Utilizes
+* HTML5 Boilerplate
+* Kendo Web UI
+* Google AngularJS
+* Twitter Bootstrap 3
+
+
+
+
+
+
 
 HTML5 Boilerplate is a professional front-end template for building fast,
 robust, and adaptable web apps or sites.
