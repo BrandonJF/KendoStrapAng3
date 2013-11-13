@@ -5,6 +5,7 @@ ksa3.controller("Controller1", ['$scope', '$http', '$location', 'localStorageSer
             $(function () {
                 // Initialize the Kendo DatePicker by calling the kendoDatePicker jQuery plugin
                 $("#datepicker").kendoDatePicker();
+
             });
         });
 
